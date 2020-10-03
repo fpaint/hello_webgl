@@ -1,0 +1,22 @@
+{
+  "name": "cube",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --hot --config ./webpack.dev.js",
+    "build": "webpack --mode=development --config ./webpack.dev.js"
+  },
+  "devDependencies": {
+    "css-loader": "^4.3.0",
+    "file-loader": "^6.1.0",
+    "html-webpack-plugin": "^4.5.0",
+    "mini-css-extract-plugin": "^0.11.2",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "three": "0.121.1"
+  }
+}
